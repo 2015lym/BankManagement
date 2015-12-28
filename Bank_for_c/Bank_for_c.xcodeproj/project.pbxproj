@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3842D4A91C3180390048CD20 /* Deposit.c in Sources */ = {isa = PBXBuildFile; fileRef = 3842D49A1C3180390048CD20 /* Deposit.c */; settings = {ASSET_TAGS = (); }; };
+		3842D4AA1C3180390048CD20 /* Log_in.c in Sources */ = {isa = PBXBuildFile; fileRef = 3842D49C1C3180390048CD20 /* Log_in.c */; settings = {ASSET_TAGS = (); }; };
+		3842D4AC1C3180390048CD20 /* NewDatabase.c in Sources */ = {isa = PBXBuildFile; fileRef = 3842D49F1C3180390048CD20 /* NewDatabase.c */; settings = {ASSET_TAGS = (); }; };
+		3842D4AD1C3180390048CD20 /* NewUser.c in Sources */ = {isa = PBXBuildFile; fileRef = 3842D4A11C3180390048CD20 /* NewUser.c */; settings = {ASSET_TAGS = (); }; };
+		3842D4AE1C3180390048CD20 /* Select.c in Sources */ = {isa = PBXBuildFile; fileRef = 3842D4A31C3180390048CD20 /* Select.c */; settings = {ASSET_TAGS = (); }; };
+		3842D4AF1C3180390048CD20 /* Transfer_Accounts.c in Sources */ = {isa = PBXBuildFile; fileRef = 3842D4A51C3180390048CD20 /* Transfer_Accounts.c */; settings = {ASSET_TAGS = (); }; };
+		3842D4B01C3180390048CD20 /* Withdraw.c in Sources */ = {isa = PBXBuildFile; fileRef = 3842D4A71C3180390048CD20 /* Withdraw.c */; settings = {ASSET_TAGS = (); }; };
 		38DCB57C1C317B7E0072FA93 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 38DCB57B1C317B7E0072FA93 /* main.c */; };
 		38DCB5831C317BAF0072FA93 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DCB5821C317BAF0072FA93 /* libsqlite3.tbd */; };
-		38DCB5921C317BD90072FA93 /* NewDatabase.c in Sources */ = {isa = PBXBuildFile; fileRef = 38DCB5841C317BD90072FA93 /* NewDatabase.c */; settings = {ASSET_TAGS = (); }; };
-		38DCB5931C317BD90072FA93 /* NewUser.c in Sources */ = {isa = PBXBuildFile; fileRef = 38DCB5861C317BD90072FA93 /* NewUser.c */; settings = {ASSET_TAGS = (); }; };
-		38DCB5941C317BD90072FA93 /* Log_in.c in Sources */ = {isa = PBXBuildFile; fileRef = 38DCB5881C317BD90072FA93 /* Log_in.c */; settings = {ASSET_TAGS = (); }; };
-		38DCB5951C317BD90072FA93 /* Select.c in Sources */ = {isa = PBXBuildFile; fileRef = 38DCB58A1C317BD90072FA93 /* Select.c */; settings = {ASSET_TAGS = (); }; };
-		38DCB5961C317BD90072FA93 /* Deposit.c in Sources */ = {isa = PBXBuildFile; fileRef = 38DCB58C1C317BD90072FA93 /* Deposit.c */; settings = {ASSET_TAGS = (); }; };
-		38DCB5971C317BD90072FA93 /* Withdraw.c in Sources */ = {isa = PBXBuildFile; fileRef = 38DCB58E1C317BD90072FA93 /* Withdraw.c */; settings = {ASSET_TAGS = (); }; };
-		38DCB5981C317BD90072FA93 /* Transfer_Accounts.c in Sources */ = {isa = PBXBuildFile; fileRef = 38DCB5901C317BD90072FA93 /* Transfer_Accounts.c */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,23 +31,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3842D49A1C3180390048CD20 /* Deposit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Deposit.c; sourceTree = "<group>"; };
+		3842D49B1C3180390048CD20 /* Deposit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deposit.h; sourceTree = "<group>"; };
+		3842D49C1C3180390048CD20 /* Log_in.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Log_in.c; sourceTree = "<group>"; };
+		3842D49D1C3180390048CD20 /* Log_in.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log_in.h; sourceTree = "<group>"; };
+		3842D49F1C3180390048CD20 /* NewDatabase.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NewDatabase.c; sourceTree = "<group>"; };
+		3842D4A01C3180390048CD20 /* NewDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewDatabase.h; sourceTree = "<group>"; };
+		3842D4A11C3180390048CD20 /* NewUser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NewUser.c; sourceTree = "<group>"; };
+		3842D4A21C3180390048CD20 /* NewUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewUser.h; sourceTree = "<group>"; };
+		3842D4A31C3180390048CD20 /* Select.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Select.c; sourceTree = "<group>"; };
+		3842D4A41C3180390048CD20 /* Select.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Select.h; sourceTree = "<group>"; };
+		3842D4A51C3180390048CD20 /* Transfer_Accounts.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Transfer_Accounts.c; sourceTree = "<group>"; };
+		3842D4A61C3180390048CD20 /* Transfer_Accounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transfer_Accounts.h; sourceTree = "<group>"; };
+		3842D4A71C3180390048CD20 /* Withdraw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Withdraw.c; sourceTree = "<group>"; };
+		3842D4A81C3180390048CD20 /* Withdraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Withdraw.h; sourceTree = "<group>"; };
 		38DCB5781C317B7E0072FA93 /* Bank_for_c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Bank_for_c; sourceTree = BUILT_PRODUCTS_DIR; };
 		38DCB57B1C317B7E0072FA93 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		38DCB5821C317BAF0072FA93 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		38DCB5841C317BD90072FA93 /* NewDatabase.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = NewDatabase.c; path = ../../BankManagement/Bank_for_c/Bank_for_c/NewDatabase.c; sourceTree = "<group>"; };
-		38DCB5851C317BD90072FA93 /* NewDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewDatabase.h; path = ../../BankManagement/Bank_for_c/Bank_for_c/NewDatabase.h; sourceTree = "<group>"; };
-		38DCB5861C317BD90072FA93 /* NewUser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = NewUser.c; path = ../../BankManagement/Bank_for_c/Bank_for_c/NewUser.c; sourceTree = "<group>"; };
-		38DCB5871C317BD90072FA93 /* NewUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewUser.h; path = ../../BankManagement/Bank_for_c/Bank_for_c/NewUser.h; sourceTree = "<group>"; };
-		38DCB5881C317BD90072FA93 /* Log_in.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Log_in.c; path = ../../BankManagement/Bank_for_c/Bank_for_c/Log_in.c; sourceTree = "<group>"; };
-		38DCB5891C317BD90072FA93 /* Log_in.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Log_in.h; path = ../../BankManagement/Bank_for_c/Bank_for_c/Log_in.h; sourceTree = "<group>"; };
-		38DCB58A1C317BD90072FA93 /* Select.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Select.c; path = ../../BankManagement/Bank_for_c/Bank_for_c/Select.c; sourceTree = "<group>"; };
-		38DCB58B1C317BD90072FA93 /* Select.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Select.h; path = ../../BankManagement/Bank_for_c/Bank_for_c/Select.h; sourceTree = "<group>"; };
-		38DCB58C1C317BD90072FA93 /* Deposit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Deposit.c; path = ../../BankManagement/Bank_for_c/Bank_for_c/Deposit.c; sourceTree = "<group>"; };
-		38DCB58D1C317BD90072FA93 /* Deposit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deposit.h; path = ../../BankManagement/Bank_for_c/Bank_for_c/Deposit.h; sourceTree = "<group>"; };
-		38DCB58E1C317BD90072FA93 /* Withdraw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Withdraw.c; path = ../../BankManagement/Bank_for_c/Bank_for_c/Withdraw.c; sourceTree = "<group>"; };
-		38DCB58F1C317BD90072FA93 /* Withdraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Withdraw.h; path = ../../BankManagement/Bank_for_c/Bank_for_c/Withdraw.h; sourceTree = "<group>"; };
-		38DCB5901C317BD90072FA93 /* Transfer_Accounts.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Transfer_Accounts.c; path = ../../BankManagement/Bank_for_c/Bank_for_c/Transfer_Accounts.c; sourceTree = "<group>"; };
-		38DCB5911C317BD90072FA93 /* Transfer_Accounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transfer_Accounts.h; path = ../../BankManagement/Bank_for_c/Bank_for_c/Transfer_Accounts.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,20 +83,20 @@
 			isa = PBXGroup;
 			children = (
 				38DCB57B1C317B7E0072FA93 /* main.c */,
-				38DCB5841C317BD90072FA93 /* NewDatabase.c */,
-				38DCB5851C317BD90072FA93 /* NewDatabase.h */,
-				38DCB5861C317BD90072FA93 /* NewUser.c */,
-				38DCB5871C317BD90072FA93 /* NewUser.h */,
-				38DCB5881C317BD90072FA93 /* Log_in.c */,
-				38DCB5891C317BD90072FA93 /* Log_in.h */,
-				38DCB58A1C317BD90072FA93 /* Select.c */,
-				38DCB58B1C317BD90072FA93 /* Select.h */,
-				38DCB58C1C317BD90072FA93 /* Deposit.c */,
-				38DCB58D1C317BD90072FA93 /* Deposit.h */,
-				38DCB58E1C317BD90072FA93 /* Withdraw.c */,
-				38DCB58F1C317BD90072FA93 /* Withdraw.h */,
-				38DCB5901C317BD90072FA93 /* Transfer_Accounts.c */,
-				38DCB5911C317BD90072FA93 /* Transfer_Accounts.h */,
+				3842D49A1C3180390048CD20 /* Deposit.c */,
+				3842D49B1C3180390048CD20 /* Deposit.h */,
+				3842D49C1C3180390048CD20 /* Log_in.c */,
+				3842D49D1C3180390048CD20 /* Log_in.h */,
+				3842D49F1C3180390048CD20 /* NewDatabase.c */,
+				3842D4A01C3180390048CD20 /* NewDatabase.h */,
+				3842D4A11C3180390048CD20 /* NewUser.c */,
+				3842D4A21C3180390048CD20 /* NewUser.h */,
+				3842D4A31C3180390048CD20 /* Select.c */,
+				3842D4A41C3180390048CD20 /* Select.h */,
+				3842D4A51C3180390048CD20 /* Transfer_Accounts.c */,
+				3842D4A61C3180390048CD20 /* Transfer_Accounts.h */,
+				3842D4A71C3180390048CD20 /* Withdraw.c */,
+				3842D4A81C3180390048CD20 /* Withdraw.h */,
 			);
 			path = Bank_for_c;
 			sourceTree = "<group>";
@@ -157,14 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38DCB5981C317BD90072FA93 /* Transfer_Accounts.c in Sources */,
+				3842D4AF1C3180390048CD20 /* Transfer_Accounts.c in Sources */,
+				3842D4AE1C3180390048CD20 /* Select.c in Sources */,
+				3842D4AD1C3180390048CD20 /* NewUser.c in Sources */,
+				3842D4A91C3180390048CD20 /* Deposit.c in Sources */,
+				3842D4B01C3180390048CD20 /* Withdraw.c in Sources */,
+				3842D4AA1C3180390048CD20 /* Log_in.c in Sources */,
 				38DCB57C1C317B7E0072FA93 /* main.c in Sources */,
-				38DCB5971C317BD90072FA93 /* Withdraw.c in Sources */,
-				38DCB5941C317BD90072FA93 /* Log_in.c in Sources */,
-				38DCB5961C317BD90072FA93 /* Deposit.c in Sources */,
-				38DCB5931C317BD90072FA93 /* NewUser.c in Sources */,
-				38DCB5951C317BD90072FA93 /* Select.c in Sources */,
-				38DCB5921C317BD90072FA93 /* NewDatabase.c in Sources */,
+				3842D4AC1C3180390048CD20 /* NewDatabase.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +281,7 @@
 				38DCB5811C317B7E0072FA93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
