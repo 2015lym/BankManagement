@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		380AE8771C2FCFC200AB6542 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 380AE8761C2FCFC200AB6542 /* main.m */; };
+		380AE87F1C2FCFE800AB6542 /* Log_in.m in Sources */ = {isa = PBXBuildFile; fileRef = 380AE87E1C2FCFE800AB6542 /* Log_in.m */; settings = {ASSET_TAGS = (); }; };
+		380AE8821C2FD14000AB6542 /* NewDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 380AE8811C2FD14000AB6542 /* NewDatabase.m */; settings = {ASSET_TAGS = (); }; };
+		380AE8851C2FD33E00AB6542 /* Select.m in Sources */ = {isa = PBXBuildFile; fileRef = 380AE8841C2FD33E00AB6542 /* Select.m */; settings = {ASSET_TAGS = (); }; };
+		380AE8881C2FD6B800AB6542 /* NewUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 380AE8871C2FD6B800AB6542 /* NewUser.m */; settings = {ASSET_TAGS = (); }; };
+		380AE88B1C2FD82300AB6542 /* DepositAndWithdraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 380AE88A1C2FD82300AB6542 /* DepositAndWithdraw.m */; settings = {ASSET_TAGS = (); }; };
+		380AE88E1C2FD9BB00AB6542 /* Transfer_Accounts.m in Sources */ = {isa = PBXBuildFile; fileRef = 380AE88D1C2FD9BB00AB6542 /* Transfer_Accounts.m */; settings = {ASSET_TAGS = (); }; };
+		380AE8901C2FE0EF00AB6542 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 380AE88F1C2FE0EF00AB6542 /* libsqlite3.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		380AE8711C2FCFC200AB6542 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		380AE8731C2FCFC200AB6542 /* Bank_for_oc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Bank_for_oc; sourceTree = BUILT_PRODUCTS_DIR; };
+		380AE8761C2FCFC200AB6542 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		380AE87D1C2FCFE800AB6542 /* Log_in.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log_in.h; sourceTree = "<group>"; };
+		380AE87E1C2FCFE800AB6542 /* Log_in.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Log_in.m; sourceTree = "<group>"; };
+		380AE8801C2FD14000AB6542 /* NewDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewDatabase.h; sourceTree = "<group>"; };
+		380AE8811C2FD14000AB6542 /* NewDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewDatabase.m; sourceTree = "<group>"; };
+		380AE8831C2FD33E00AB6542 /* Select.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Select.h; sourceTree = "<group>"; };
+		380AE8841C2FD33E00AB6542 /* Select.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Select.m; sourceTree = "<group>"; };
+		380AE8861C2FD6B800AB6542 /* NewUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewUser.h; sourceTree = "<group>"; };
+		380AE8871C2FD6B800AB6542 /* NewUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewUser.m; sourceTree = "<group>"; };
+		380AE8891C2FD82300AB6542 /* DepositAndWithdraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepositAndWithdraw.h; sourceTree = "<group>"; };
+		380AE88A1C2FD82300AB6542 /* DepositAndWithdraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepositAndWithdraw.m; sourceTree = "<group>"; };
+		380AE88C1C2FD9BB00AB6542 /* Transfer_Accounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transfer_Accounts.h; sourceTree = "<group>"; };
+		380AE88D1C2FD9BB00AB6542 /* Transfer_Accounts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transfer_Accounts.m; sourceTree = "<group>"; };
+		380AE88F1C2FE0EF00AB6542 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		380AE8701C2FCFC200AB6542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380AE8901C2FE0EF00AB6542 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		380AE86A1C2FCFC200AB6542 = {
+			isa = PBXGroup;
+			children = (
+				380AE88F1C2FE0EF00AB6542 /* libsqlite3.tbd */,
+				380AE8751C2FCFC200AB6542 /* Bank_for_oc */,
+				380AE8741C2FCFC200AB6542 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		380AE8741C2FCFC200AB6542 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				380AE8731C2FCFC200AB6542 /* Bank_for_oc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		380AE8751C2FCFC200AB6542 /* Bank_for_oc */ = {
+			isa = PBXGroup;
+			children = (
+				380AE8761C2FCFC200AB6542 /* main.m */,
+				380AE8801C2FD14000AB6542 /* NewDatabase.h */,
+				380AE8811C2FD14000AB6542 /* NewDatabase.m */,
+				380AE8861C2FD6B800AB6542 /* NewUser.h */,
+				380AE8871C2FD6B800AB6542 /* NewUser.m */,
+				380AE87D1C2FCFE800AB6542 /* Log_in.h */,
+				380AE87E1C2FCFE800AB6542 /* Log_in.m */,
+				380AE8831C2FD33E00AB6542 /* Select.h */,
+				380AE8841C2FD33E00AB6542 /* Select.m */,
+				380AE8891C2FD82300AB6542 /* DepositAndWithdraw.h */,
+				380AE88A1C2FD82300AB6542 /* DepositAndWithdraw.m */,
+				380AE88C1C2FD9BB00AB6542 /* Transfer_Accounts.h */,
+				380AE88D1C2FD9BB00AB6542 /* Transfer_Accounts.m */,
+			);
+			path = Bank_for_oc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		380AE8721C2FCFC200AB6542 /* Bank_for_oc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 380AE87A1C2FCFC200AB6542 /* Build configuration list for PBXNativeTarget "Bank_for_oc" */;
+			buildPhases = (
+				380AE86F1C2FCFC200AB6542 /* Sources */,
+				380AE8701C2FCFC200AB6542 /* Frameworks */,
+				380AE8711C2FCFC200AB6542 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bank_for_oc;
+			productName = Bank_for_oc;
+			productReference = 380AE8731C2FCFC200AB6542 /* Bank_for_oc */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		380AE86B1C2FCFC200AB6542 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "李一鸣";
+				TargetAttributes = {
+					380AE8721C2FCFC200AB6542 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 380AE86E1C2FCFC200AB6542 /* Build configuration list for PBXProject "Bank_for_oc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 380AE86A1C2FCFC200AB6542;
+			productRefGroup = 380AE8741C2FCFC200AB6542 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				380AE8721C2FCFC200AB6542 /* Bank_for_oc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		380AE86F1C2FCFC200AB6542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380AE8881C2FD6B800AB6542 /* NewUser.m in Sources */,
+				380AE8821C2FD14000AB6542 /* NewDatabase.m in Sources */,
+				380AE8771C2FCFC200AB6542 /* main.m in Sources */,
+				380AE88E1C2FD9BB00AB6542 /* Transfer_Accounts.m in Sources */,
+				380AE87F1C2FCFE800AB6542 /* Log_in.m in Sources */,
+				380AE88B1C2FD82300AB6542 /* DepositAndWithdraw.m in Sources */,
+				380AE8851C2FD33E00AB6542 /* Select.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		380AE8781C2FCFC200AB6542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		380AE8791C2FCFC200AB6542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		380AE87B1C2FCFC200AB6542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		380AE87C1C2FCFC200AB6542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		380AE86E1C2FCFC200AB6542 /* Build configuration list for PBXProject "Bank_for_oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380AE8781C2FCFC200AB6542 /* Debug */,
+				380AE8791C2FCFC200AB6542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		380AE87A1C2FCFC200AB6542 /* Build configuration list for PBXNativeTarget "Bank_for_oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380AE87B1C2FCFC200AB6542 /* Debug */,
+				380AE87C1C2FCFC200AB6542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 380AE86B1C2FCFC200AB6542 /* Project object */;
+}
