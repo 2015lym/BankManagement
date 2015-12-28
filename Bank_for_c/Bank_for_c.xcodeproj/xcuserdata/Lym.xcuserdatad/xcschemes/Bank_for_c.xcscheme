@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "38DCB5361C3156570072FA93"
-               BuildableName = "BankManagement"
-               BlueprintName = "BankManagement"
-               ReferencedContainer = "container:BankManagement.xcodeproj">
+               BlueprintIdentifier = "38DCB5771C317B7E0072FA93"
+               BuildableName = "Bank_for_c"
+               BlueprintName = "Bank_for_c"
+               ReferencedContainer = "container:Bank_for_c.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "38DCB5361C3156570072FA93"
-            BuildableName = "BankManagement"
-            BlueprintName = "BankManagement"
-            ReferencedContainer = "container:BankManagement.xcodeproj">
+            BlueprintIdentifier = "38DCB5771C317B7E0072FA93"
+            BuildableName = "Bank_for_c"
+            BlueprintName = "Bank_for_c"
+            ReferencedContainer = "container:Bank_for_c.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "38DCB5361C3156570072FA93"
-            BuildableName = "BankManagement"
-            BlueprintName = "BankManagement"
-            ReferencedContainer = "container:BankManagement.xcodeproj">
+            BlueprintIdentifier = "38DCB5771C317B7E0072FA93"
+            BuildableName = "Bank_for_c"
+            BlueprintName = "Bank_for_c"
+            ReferencedContainer = "container:Bank_for_c.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "38DCB5361C3156570072FA93"
-            BuildableName = "BankManagement"
-            BlueprintName = "BankManagement"
-            ReferencedContainer = "container:BankManagement.xcodeproj">
+            BlueprintIdentifier = "38DCB5771C317B7E0072FA93"
+            BuildableName = "Bank_for_c"
+            BlueprintName = "Bank_for_c"
+            ReferencedContainer = "container:Bank_for_c.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

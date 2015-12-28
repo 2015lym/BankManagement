@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BankManagement.xcscheme</key>
+		<key>Bank_for_c.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>38DCB5361C3156570072FA93</key>
+		<key>38DCB5771C317B7E0072FA93</key>
 		<dict>
 			<key>primary</key>
 			<true/>

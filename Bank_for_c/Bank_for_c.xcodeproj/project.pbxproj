@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38DCB57C1C317B7E0072FA93 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 38DCB57B1C317B7E0072FA93 /* main.c */; };
+		38DCB5831C317BAF0072FA93 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DCB5821C317BAF0072FA93 /* libsqlite3.tbd */; };
+		38DCB5921C317BD90072FA93 /* NewDatabase.c in Sources */ = {isa = PBXBuildFile; fileRef = 38DCB5841C317BD90072FA93 /* NewDatabase.c */; settings = {ASSET_TAGS = (); }; };
+		38DCB5931C317BD90072FA93 /* NewUser.c in Sources */ = {isa = PBXBuildFile; fileRef = 38DCB5861C317BD90072FA93 /* NewUser.c */; settings = {ASSET_TAGS = (); }; };
+		38DCB5941C317BD90072FA93 /* Log_in.c in Sources */ = {isa = PBXBuildFile; fileRef = 38DCB5881C317BD90072FA93 /* Log_in.c */; settings = {ASSET_TAGS = (); }; };
+		38DCB5951C317BD90072FA93 /* Select.c in Sources */ = {isa = PBXBuildFile; fileRef = 38DCB58A1C317BD90072FA93 /* Select.c */; settings = {ASSET_TAGS = (); }; };
+		38DCB5961C317BD90072FA93 /* Deposit.c in Sources */ = {isa = PBXBuildFile; fileRef = 38DCB58C1C317BD90072FA93 /* Deposit.c */; settings = {ASSET_TAGS = (); }; };
+		38DCB5971C317BD90072FA93 /* Withdraw.c in Sources */ = {isa = PBXBuildFile; fileRef = 38DCB58E1C317BD90072FA93 /* Withdraw.c */; settings = {ASSET_TAGS = (); }; };
+		38DCB5981C317BD90072FA93 /* Transfer_Accounts.c in Sources */ = {isa = PBXBuildFile; fileRef = 38DCB5901C317BD90072FA93 /* Transfer_Accounts.c */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		38DCB5761C317B7E0072FA93 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		38DCB5781C317B7E0072FA93 /* Bank_for_c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Bank_for_c; sourceTree = BUILT_PRODUCTS_DIR; };
+		38DCB57B1C317B7E0072FA93 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		38DCB5821C317BAF0072FA93 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		38DCB5841C317BD90072FA93 /* NewDatabase.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = NewDatabase.c; path = ../../BankManagement/Bank_for_c/Bank_for_c/NewDatabase.c; sourceTree = "<group>"; };
+		38DCB5851C317BD90072FA93 /* NewDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewDatabase.h; path = ../../BankManagement/Bank_for_c/Bank_for_c/NewDatabase.h; sourceTree = "<group>"; };
+		38DCB5861C317BD90072FA93 /* NewUser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = NewUser.c; path = ../../BankManagement/Bank_for_c/Bank_for_c/NewUser.c; sourceTree = "<group>"; };
+		38DCB5871C317BD90072FA93 /* NewUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewUser.h; path = ../../BankManagement/Bank_for_c/Bank_for_c/NewUser.h; sourceTree = "<group>"; };
+		38DCB5881C317BD90072FA93 /* Log_in.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Log_in.c; path = ../../BankManagement/Bank_for_c/Bank_for_c/Log_in.c; sourceTree = "<group>"; };
+		38DCB5891C317BD90072FA93 /* Log_in.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Log_in.h; path = ../../BankManagement/Bank_for_c/Bank_for_c/Log_in.h; sourceTree = "<group>"; };
+		38DCB58A1C317BD90072FA93 /* Select.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Select.c; path = ../../BankManagement/Bank_for_c/Bank_for_c/Select.c; sourceTree = "<group>"; };
+		38DCB58B1C317BD90072FA93 /* Select.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Select.h; path = ../../BankManagement/Bank_for_c/Bank_for_c/Select.h; sourceTree = "<group>"; };
+		38DCB58C1C317BD90072FA93 /* Deposit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Deposit.c; path = ../../BankManagement/Bank_for_c/Bank_for_c/Deposit.c; sourceTree = "<group>"; };
+		38DCB58D1C317BD90072FA93 /* Deposit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deposit.h; path = ../../BankManagement/Bank_for_c/Bank_for_c/Deposit.h; sourceTree = "<group>"; };
+		38DCB58E1C317BD90072FA93 /* Withdraw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Withdraw.c; path = ../../BankManagement/Bank_for_c/Bank_for_c/Withdraw.c; sourceTree = "<group>"; };
+		38DCB58F1C317BD90072FA93 /* Withdraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Withdraw.h; path = ../../BankManagement/Bank_for_c/Bank_for_c/Withdraw.h; sourceTree = "<group>"; };
+		38DCB5901C317BD90072FA93 /* Transfer_Accounts.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Transfer_Accounts.c; path = ../../BankManagement/Bank_for_c/Bank_for_c/Transfer_Accounts.c; sourceTree = "<group>"; };
+		38DCB5911C317BD90072FA93 /* Transfer_Accounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transfer_Accounts.h; path = ../../BankManagement/Bank_for_c/Bank_for_c/Transfer_Accounts.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38DCB5751C317B7E0072FA93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DCB5831C317BAF0072FA93 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38DCB56F1C317B7E0072FA93 = {
+			isa = PBXGroup;
+			children = (
+				38DCB5821C317BAF0072FA93 /* libsqlite3.tbd */,
+				38DCB57A1C317B7E0072FA93 /* Bank_for_c */,
+				38DCB5791C317B7E0072FA93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38DCB5791C317B7E0072FA93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38DCB5781C317B7E0072FA93 /* Bank_for_c */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38DCB57A1C317B7E0072FA93 /* Bank_for_c */ = {
+			isa = PBXGroup;
+			children = (
+				38DCB57B1C317B7E0072FA93 /* main.c */,
+				38DCB5841C317BD90072FA93 /* NewDatabase.c */,
+				38DCB5851C317BD90072FA93 /* NewDatabase.h */,
+				38DCB5861C317BD90072FA93 /* NewUser.c */,
+				38DCB5871C317BD90072FA93 /* NewUser.h */,
+				38DCB5881C317BD90072FA93 /* Log_in.c */,
+				38DCB5891C317BD90072FA93 /* Log_in.h */,
+				38DCB58A1C317BD90072FA93 /* Select.c */,
+				38DCB58B1C317BD90072FA93 /* Select.h */,
+				38DCB58C1C317BD90072FA93 /* Deposit.c */,
+				38DCB58D1C317BD90072FA93 /* Deposit.h */,
+				38DCB58E1C317BD90072FA93 /* Withdraw.c */,
+				38DCB58F1C317BD90072FA93 /* Withdraw.h */,
+				38DCB5901C317BD90072FA93 /* Transfer_Accounts.c */,
+				38DCB5911C317BD90072FA93 /* Transfer_Accounts.h */,
+			);
+			path = Bank_for_c;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38DCB5771C317B7E0072FA93 /* Bank_for_c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38DCB57F1C317B7E0072FA93 /* Build configuration list for PBXNativeTarget "Bank_for_c" */;
+			buildPhases = (
+				38DCB5741C317B7E0072FA93 /* Sources */,
+				38DCB5751C317B7E0072FA93 /* Frameworks */,
+				38DCB5761C317B7E0072FA93 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bank_for_c;
+			productName = Bank_for_c;
+			productReference = 38DCB5781C317B7E0072FA93 /* Bank_for_c */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38DCB5701C317B7E0072FA93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Lym;
+				TargetAttributes = {
+					38DCB5771C317B7E0072FA93 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 38DCB5731C317B7E0072FA93 /* Build configuration list for PBXProject "Bank_for_c" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 38DCB56F1C317B7E0072FA93;
+			productRefGroup = 38DCB5791C317B7E0072FA93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38DCB5771C317B7E0072FA93 /* Bank_for_c */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38DCB5741C317B7E0072FA93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DCB5981C317BD90072FA93 /* Transfer_Accounts.c in Sources */,
+				38DCB57C1C317B7E0072FA93 /* main.c in Sources */,
+				38DCB5971C317BD90072FA93 /* Withdraw.c in Sources */,
+				38DCB5941C317BD90072FA93 /* Log_in.c in Sources */,
+				38DCB5961C317BD90072FA93 /* Deposit.c in Sources */,
+				38DCB5931C317BD90072FA93 /* NewUser.c in Sources */,
+				38DCB5951C317BD90072FA93 /* Select.c in Sources */,
+				38DCB5921C317BD90072FA93 /* NewDatabase.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		38DCB57D1C317B7E0072FA93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		38DCB57E1C317B7E0072FA93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		38DCB5801C317B7E0072FA93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38DCB5811C317B7E0072FA93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38DCB5731C317B7E0072FA93 /* Build configuration list for PBXProject "Bank_for_c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DCB57D1C317B7E0072FA93 /* Debug */,
+				38DCB57E1C317B7E0072FA93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38DCB57F1C317B7E0072FA93 /* Build configuration list for PBXNativeTarget "Bank_for_c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DCB5801C317B7E0072FA93 /* Debug */,
+				38DCB5811C317B7E0072FA93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38DCB5701C317B7E0072FA93 /* Project object */;
+}
